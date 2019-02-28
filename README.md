@@ -1,7 +1,9 @@
-# Google Marlin Demo Patch
-by Jonty Brook - jonty@thegeeks.co - all rights reserved.
+# Android Orientation Lock for Chromecast to Portrait screens.
+by Jonty Brook - me@jontyb.co.uk
 
-This script modifies environment properties to block automatic rotation on Android devices. It enables mirroring the phone screen via cast for demonstration purposes. It was written for the launch of the Google Pixel in order to demonstrate the phones on portrait screens over chromecast. This works on Pixel 1, 2 & 3 devices. Others have not been tested but should work.
+This script modifies environment properties to block automatic rotation on Android devices when casting. It enables mirroring the phone screen via cast for demonstration purposes. Without this patch, Chromecast is smart enough to put a portrait view of the screen in the center of a landscape TV as it presumes TV's will always be landscape. This makes life difficult if you want to mount a TV in portrait orientation.
+
+This was written for the launch of the Google Pixel in order to demonstrate the phones on portrait screens over chromecast at events. This works on Pixel 1, 2 & 3 devices. Others have not been tested but should work. The 'patch' is not dangerous but you should proceed with caution if you need to unlock flashing on your device as this will likely wipe all data.
 
 This repository contains a number of other handy scripts for configuring Pixel phones for demo casts eg setting the resolution.
 
